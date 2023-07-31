@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripcion</title>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+    <div class="form">
+        <h1>Formulario de Inscripción</h1>
+        <p>Rellena el siguiente formulario para inscribirte en nuestro campus: </p>
+        <form action="/procesar_inscripcion" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Escriba su Nombre aqui">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Direccion de Email">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required placeholder="Numero de Telefono">
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    
+  </body>
+</html>

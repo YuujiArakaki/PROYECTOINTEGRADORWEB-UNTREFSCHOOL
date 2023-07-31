@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&family=Poppins:wght@300;400;500;700&family=Roboto:wght@100;300;500&display=swap');
+
+* {
+padding: 0;
+margin: 0;
+font-family: 'Poppins', 'Belanosima', sans-serif;
+
+}
+
+:root {
+    --color-naranja: #FC7300;
+    --color-verdeClaro: #1F8A70;
+    --color-verdeOscuro: #00425A;
+    --color-blanco: #EFF5F5;
+    --color-negro: #181823;
+}
+
+body {
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(img/clase.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+body .form{
+    border: #00425A 1px solid;
+    background-color: #00425aac;
+    padding: 60px;
+    border-radius: 10px;
+    
+    
+}
+
+h1 {
+        color: var(--color-blanco);
+}
+
+
+p {
+        color: var(--color-blanco);
+}
+
+
+form {
+        max-width: 400px;
+        margin: 0 auto;
+}
+
+
+label {
+        display: block;
+        margin-bottom: 5px;
+        color: var(--color-blanco);
+}
+
+
+input[type="text"], input[type="email"], input[type="tel"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #fc71007b;
+        color: white;
+        
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="tel"]::placeholder {
+        color: var(--color-blanco);
+}
+
+
+input[type="submit"] {
+        background-color: var(--color-blanco);
+        color: var(--color-verdeOscuro);
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+
+}
+
+
+input[type="submit"]:hover {
+        background-color: var(--color-negro);
+        color: var(--color-blanco);
+
+
+
+}
+
