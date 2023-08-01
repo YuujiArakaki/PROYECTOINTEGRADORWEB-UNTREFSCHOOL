@@ -220,11 +220,14 @@ footer div {
 
 .redesSociales a {
     text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.505);
     border-radius: 10px;
     padding: 2px;
-    color: var(--color-negro);
+    color: var(--color-blanco);
     font-size: 1.5rem;
+    /* background-color: #EFF5F5; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .redesSociales div {
@@ -239,9 +242,23 @@ ion-icon {
     color: #FC7300;
 }
 
-/* .instagram div{
+.logos {
     width: fit-content;
     height: fit-content;
+}
+
+.logoName {
+    width: fit-content;
+}
+
+
+/* .instagram {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: seagreen;
+    justify-content: center;
 } */
 
 
@@ -346,8 +363,12 @@ ion-icon {
         margin-left: 0;
     }
     .navbar li{
-        border: white 1px solid;
+        /* border: white 1px solid; */
         padding: 3px;
+    }
+
+    .logoName {
+        display: none;
     }
 
     section ul, p {
