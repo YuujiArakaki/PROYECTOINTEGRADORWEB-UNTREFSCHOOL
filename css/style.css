@@ -23,6 +23,7 @@ html {
 
 
 /* HEADER */
+
 header {
     display: flex;
     flex-direction: column;
@@ -54,6 +55,7 @@ header {
 }
 
 /* NAVBAR */
+
 .navbar {
     display: flex;
     flex-direction: row;
@@ -83,10 +85,8 @@ header {
     transition: transform .2s;
 }
 
-
 .navbar a:hover::after {
     transform: scaleX(1);
-
 }
 
 .navbar li {
@@ -94,6 +94,7 @@ header {
 }
 
 /* BOTON de Ingresar */
+
 .buttonLogin {
     width: 100px;
     height: 50px;
@@ -114,13 +115,13 @@ header {
 }
 
 /* MAIN */
+
 main {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
     width: 100%;
-
 }
 
 section {
@@ -131,7 +132,6 @@ section {
     width: 100%;
     background-color:var(--color-naranja) ;
     overflow: hidden;
-
 }
 
 #ultimasNoticias {
@@ -139,9 +139,7 @@ section {
     background-size: cover;
     color: var(--color-blanco);
     display: flex;
- 
 }
-
 
 #ultimasNoticias ul li {
     text-align: start;
@@ -171,7 +169,6 @@ section {
 
 section div {
     background-color: #00000091;
-
 }
 
 section h2 {
@@ -180,19 +177,17 @@ section h2 {
 }
 
 section ul, p {
-    /* border: #00425A 1px solid; */
     margin: 0px 2rem 0px 2rem;
 }
 
-
 /* FOOTER */
+
 footer {
     display: flex;
     background-color: var(--color-verdeOscuro);
     color: var(--color-blanco);
     border-top: var(--color-negro) 30px solid;
     border-bottom: var(--color-negro) 30px solid;
-
 }
 
 footer div {
@@ -212,8 +207,6 @@ footer div {
     background-color: var(--color-negro);
     border-left: #EFF5F5 solid 1px;
     color: var(--color-naranja);
-
-
 }
 
 .redesSociales a {
@@ -232,14 +225,12 @@ footer div {
     justify-content: center;
     text-align: center;
     align-items: center;
-
 }
 
 .redesSociales div h3 {
     font-weight: 300;
     text-decoration-line: underline;
     text-underline-offset: 5px;
-
 }
 
 ion-icon {
@@ -250,12 +241,7 @@ ion-icon {
 .logos {
     width: fit-content;
     height: fit-content;
-
 }
-
-/* .logos a ion-icon {
-    font-size: 100px;
-} */
 
 .logoName {
     width: fit-content;
@@ -271,7 +257,6 @@ ion-icon {
     flex-direction: column;
     background-color: var(--color-negro);
     border-right: var(--color-blanco) solid 2px;
-    
 }
 
 .ubicacion iframe {
@@ -279,7 +264,6 @@ ion-icon {
     border-radius: 10px;
     margin: 10px;
 }
-
 
 .ubicacion p {
     display: flex;
@@ -294,7 +278,6 @@ ion-icon {
     background-color: #eff5f5aa;
     width: fit-content;
     border-radius: 5px;
-
 }
 
 .ubicacion a {
@@ -304,10 +287,12 @@ ion-icon {
 
 }
 
-
 /* MOBILE FIRST */
 
+/* Tablet */
+
 @media (max-width: 900px) {
+
     .topHeader h2 {
         display: none;
     }
@@ -353,10 +338,13 @@ ion-icon {
 
 }
 
+/* Smartphone */
+
 @media (max-width: 320px) {
     html {
         font-size: 14px;
     }
+
     .topHeader h2 {
         display: none;
     }
@@ -370,16 +358,17 @@ ion-icon {
         height: 30px;
         margin-right: 0;
     }
+
     .untref {
         margin-left: 0;
     }
+    
     .navbar li{
         padding: 3px;
     }
 
     section ul, p {
-        font-size: 0.6rem;
-        
+        font-size: 0.6rem;    
     }
 
     ion-icon {
@@ -411,7 +400,6 @@ ion-icon {
 
     section {
         padding: 0px;
-
     }
 
     .ubicacion {
@@ -425,12 +413,4 @@ ion-icon {
         border-radius: 0px;
     }
 
-
-
-    .ubicacion p a {
-        font-size: 0.8rem;
-
-    }
-
-    
 }
